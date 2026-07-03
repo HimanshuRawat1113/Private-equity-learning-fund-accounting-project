@@ -63,7 +63,7 @@ function mdToHtml(md) {
 // ---- data ----
 let MODULES = [];
 async function loadData() {
-  const res = await fetch('data/modules.json');
+  const res = await fetch('modules.json');
   MODULES = await res.json();
 }
 
